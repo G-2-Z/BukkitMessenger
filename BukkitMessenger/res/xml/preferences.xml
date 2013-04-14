@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <SwitchPreference android:title="Message Service" android:key="serviceSwitch"/>
+    <PreferenceCategory>
+        
+        <CheckBoxPreference android:key="reffererAdmin" android:title="Admin" /><CheckBoxPreference android:key="reffererParty" android:title="Party" /><CheckBoxPreference android:key="reffererPlayerJoin" android:title="Player Join"/>
+        <CheckBoxPreference android:title="Test" android:key="reffererTest" android:defaultValue="false" />
+        
+    </PreferenceCategory>
+    
+</PreferenceScreen>
